@@ -34,7 +34,7 @@ export default function Home() {
             <Card
                 title='Game Dev'    
                 description='Game Development Competition merupakan lomba pembuatan game yang diadakan untuk siswa/i SMA/SMK/sederajat dan mahasiswa dalam mengembangkan ide, kreasi serta inovasi peserta mengenai Game Development'
-                link='/workshop'
+                link='/competition/gamedev'
                 image={game}
             />
             <Card
@@ -46,7 +46,7 @@ export default function Home() {
             <Card
                 title='Robotics'
                 description='Robotic Competition merupakan lomba pengoperasian robot yang diadakan untuk siswa/i SD dan SMP. Pada tahun ini MAGE 9 berfokus pada kompetisi line tracer dimana robot akan dibuat untuk bergerak mengikuti garis pandu yang telah disediakan.'
-                link='/webinar'
+                link='/competition/robotics'
                 image={robotics}
             />
         </div>

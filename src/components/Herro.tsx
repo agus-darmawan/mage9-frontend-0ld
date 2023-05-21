@@ -12,7 +12,8 @@ export default function Herro() {
             <div className="flex flex-wrap justify-center">
                 <Button2
                     text="About Us" 
-                    link="#about"/>
+                    link="/about"
+                />
             </div>
         </div>
     </section>
