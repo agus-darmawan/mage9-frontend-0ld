@@ -1,12 +1,12 @@
 import React from 'react'
 
-export default function Quote() {
+export default function Sponsors() {
   return (
-    <div className="bg-white">
-        <div className="py-8"></div>
-        <div className="sm:max-w-5xl pt-8 rounded-xl bg-white mx-4 sm:mx-8 md:mx-auto">
+    <div className="bg-blue-100 dark:bg-gray-800">
+        <div className="py-2"></div>
+        <div className="sm:max-w-5xl pt-8 rounded-xl bg-blue-100  dark:bg-gray-800 mx-4 sm:mx-8 md:mx-auto">
             <div className="w-11/12 sm:w-2/3 mx-auto mb-10">
-            <h1 className="focus:outline-none xl:text-4xl text-3xl text-center text-gray-800 font-extrabold pt-4">Media Partner</h1>
+            <h1 className="focus:outline-none xl:text-4xl text-3xl text-center text-gray-800 dark:text-blue-400 font-extrabold pt-4">Media Partner</h1>
             </div>
             <div className="sm:py-6 px-8 sm:24 flex flex-wrap items-center">
             <div

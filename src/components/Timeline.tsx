@@ -3,12 +3,8 @@ import Title from './Title'
 
 export default function Timeline() {
   return (
-    <div className='container px-5 mx-auto'>
-         <Title
-                title='Timeline'
-                description=''
-                />
-        <ol className="items-center sm:flex">
+    <div className='container px-5 mx-auto mb-10'>
+        <ul className="items-center sm:flex">
             <li className="relative mb-6 sm:mb-0">
                 <div className="flex items-center">
                     <div className="z-10 flex items-center justify-center w-6 h-6 bg-blue-100 rounded-full ring-0 ring-white dark:bg-blue-900 sm:ring-8 dark:ring-gray-900 shrink-0">
@@ -48,7 +44,7 @@ export default function Timeline() {
                     <p className="text-base font-normal text-gray-500 dark:text-gray-400">Get started with dozens of web components and interactive elements.</p>
                 </div>
             </li>
-        </ol>
+        </ul>
     </div>
   )
 }
