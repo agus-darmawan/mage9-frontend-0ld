@@ -9,14 +9,4 @@ module.exports = {
       // your project has ESLint errors.
       ignoreDuringBuilds: true,
     },
-    images: {
-    remotePatterns: [
-      {
-        protocol: 'https',
-        hostname: 'flowbite.s3.amazonaws.com',
-        port: '',
-        pathname: '/docs/gallery/masonry/**',
-      },
-      ],
-    },
   };

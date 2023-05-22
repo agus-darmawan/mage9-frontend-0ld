@@ -1,13 +1,14 @@
-import React from 'react'
-import Hero from '@/components/Hero'
-import Timeline from '@/components/Timeline'
+import React from 'react';
+import Image from 'next/legacy/image';
+import Card from '@/components/Card';
+
+import blue from '../../../assets/images/bg/blue.svg';
+import RoboticContent from '@/components/RoboticContent';
 
 export default function page() {
   return (
     <div>
-      <Hero />
-      <Timeline />
-
+      <RoboticContent />
     </div>
-  )
+  );
 }
