@@ -3,7 +3,7 @@ import Button2 from './Button2'
 
 export default function Herro() {
   return (
-    <section className=" bg-blue-100 dark:bg-gray-800 dark:text-gray-100">
+    <section className="items-center bg-blue-100 dark:bg-gray-800 dark:text-gray-100">
         <div className="container mx-auto flex flex-col items-center px-4 py-16 text-center md:py-32 md:px-10 lg:px-32 xl:max-w-6xl">
             <h1 className="text-4xl font-bold leading-none sm:text-5xl"> Build a Better  Society
                 <span className="text-violet-400">  with </span>  Smart City
