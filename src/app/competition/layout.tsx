@@ -5,8 +5,8 @@ import Footer from '@/components/Footer'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
-  title: 'MAGE 9 ITS',
-  description: 'Lorem Ipsum Dolor Sit Amet',
+  title: 'Multimedia and Game Event 9',
+  description: 'MAGE (Multimedia and Game Event) adalah Wadah bagi generasi muda dalam berkreasi, berekspresi, dan berkompetisi untuk menuangkan inovasi sekaligus menyelesaikan permasalahan dengan memanfaatkan berbagai macam teknologi melalui serangkaian kegiatan seperti Development Competition (Apps, IoT, Games), Event Workshop. Dolor Sit Amet',
 }
 
 export default function RootLayout({
