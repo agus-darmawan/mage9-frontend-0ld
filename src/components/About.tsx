@@ -7,10 +7,10 @@ import Bg2 from "../assets/images/bg/Hero2-2.png"
 export default function About() {
   return (
     <div>
-        <div className="font-Lexend">
+        <div >
             <div className="w-full relative pb-10 px-6 xl:px-0">
                 <Image 
-                    className="absolute w-full inset-0 h-full object-cover object-center" 
+                    className="absolute -z-10 bg-cover h-screen w-screen bg-center inset-0" 
                     src={Bg2} 
                     alt="/"
                 />
@@ -24,10 +24,10 @@ export default function About() {
                             alt="people smiling"
                         />
                     </div>
-                    <div className="w-full lg:w-1/2 h-full">
-                        <p  className="text-primaryColor1 uppercase text-3xl font-black mb-3">About</p>
-                        <h1  className="text-primaryColor1 text-4xl lg:text-6xl font-black mb-4">MAGE 9</h1>
-                        <p  className="text-gray-800 font-regular font-medium mb-8">MAGE (Multimedia and Game Event) adalah serangkaian acara 
+                    <div className="w-full text-center md:text-left lg:w-1/2 h-full">
+                        <h1  className="text-primaryColor1 uppercase text-3xl font-black mb-1">About</h1>
+                        <h1  className="text-primaryColor1 text-5xl lg:text-6xl font-black mb-4">MAGE 9</h1>
+                        <p  className="text-gray-500 font-medium mb-8 text-xl">MAGE (Multimedia and Game Event) adalah serangkaian acara 
                             dibidang IT yang diadakan oleh Departemen Teknik Komputer - FTEIC ITS sebagai wadah bagi generasi muda dalam berkreasi, 
                             berekspresi, dan berkompetisi untuk menuangkan inovasi sekaligus menyelesaikan permasalahan dengan memanfaatkan berbagai
                             macam teknologi melalui serangkaian kegiatan seperti Development Competition (Apps, IoT, Games), Olimpiade, Workshop, dan Webinar.</p>                      

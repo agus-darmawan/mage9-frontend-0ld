@@ -39,7 +39,7 @@ module.exports = {
         fallColor4: "#5D5D5A",
       },
       backgroundImage: {
-        Hero:  "url('/assets/images/bg/Hero1-2.png')",
+        Hero:  "url('/public/icon/logo.svg')",
         Hero1: "url('/src/assets/images/bg/Hero2-2.png')",
       },
     },
