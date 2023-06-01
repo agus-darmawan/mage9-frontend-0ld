@@ -38,7 +38,8 @@ module.exports = {
         fallColor4: "#5D5D5A",
       },
       backgroundImage: {
-        Hero1: "url('/assets/images/bg/Hero2-2.png')",
+        Hero:  "url('/assets/images/bg/Hero1-2.png')",
+        Hero1: "url('/src/assets/images/bg/Hero2-2.png')",
       },
       fontFamily: {
         sans: ["Lexend Deca", "sans-serif"],
