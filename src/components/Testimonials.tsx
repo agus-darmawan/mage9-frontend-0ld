@@ -67,7 +67,7 @@ export default function Home() {
                                     </clipPath>
                                 </defs>
                             </svg>
-                            <p className="xl:w-80 text-base leading-normal text-center mt-4">When our designs need an expert opinion or approval, I know I can rely on your agency Thank you for all your help-I will be recommending you to everyone</p>
+                            <p className="xl:w-80 text-base leading-normal text-center mt-4">Pengalaman ikut MAGE 7 sangat memorable dan tentu saja keren karena membuka jalan lain untuk masuk ITS selain jalur akademik. Semangat lagi panitia MAGE selanjutnya, semoga kegiatannya lebih baik lagi dan sukses!</p>
                         </div>
                         <div className="text-white group-hover:text-indigo-700 absolute bottom-0 -mb-6">
                             <svg width={34} height={28} viewBox="0 0 34 28" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -96,8 +96,8 @@ export default function Home() {
                     </div>
                     <div className="flex flex-col items-center justify-center mt-10">
                         <img src="https://i.ibb.co/8BLjmqz/avatar-2.png" alt="profile pictre" className="w-12 h-12" />
-                        <p className="text-base font-semibold leading-4 my-2 text-gray-800">Alan Max</p>
-                        <p className="text-base leading-4 text-center text-gray-600">Designer</p>
+                        <p className="text-base font-semibold leading-4 my-2 text-gray-800">Rezky Dwisantika</p>
+                        <p className="text-base leading-4 text-center text-gray-600">Juara 1 App Dev MAGE 7</p>
                     </div>
                 </div>
                 <div>
@@ -114,7 +114,7 @@ export default function Home() {
                                     </clipPath>
                                 </defs>
                             </svg>
-                            <p className="xl:w-80 text-base leading-normal text-center mt-4">When our designs need an expert opinion or approval, I know I can rely on your agency Thank you for all your help-I will be recommending you to everyone</p>
+                            <p className="xl:w-80 text-base leading-normal text-center mt-4">Sebagai alumni MAGE 5 & 6 menurut saya MAGE sangat berhasil mengadakan acara sebagai media unjuk gigi para indie dev, dan menurut saya tema dari tiap mage yang selalu berganti adalah ide yang keren, karena darisana para indie dev dapat terpacu untuk memberikan sebuah solusi dari tema yang ada dengan cara kreatif & fun.</p>
                         </div>
                         <div className="text-white group-hover:text-indigo-700 absolute bottom-0 -mb-6">
                             <svg width={34} height={28} viewBox="0 0 34 28" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -143,8 +143,8 @@ export default function Home() {
                     </div>
                     <div className="flex flex-col items-center justify-center mt-10">
                         <img src="https://i.ibb.co/y0KCX7p/avatar-3.png" alt="profile pictre" className="w-12 h-12" />
-                        <p className="text-base font-semibold leading-4 my-2 text-gray-800">Kera Joo</p>
-                        <p className="text-base leading-4 text-center text-gray-600">Support</p>
+                        <p className="text-base font-semibold leading-4 my-2 text-gray-800">Trident Dev (Abyan Dhia Pratama)</p>
+                        <p className="text-base leading-4 text-center text-gray-600">1st Winner Game Dev MAGE 6</p>
                     </div>
                 </div>
             </div>
