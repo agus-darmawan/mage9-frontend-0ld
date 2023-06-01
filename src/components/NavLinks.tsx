@@ -6,9 +6,6 @@ import { links } from "./Mylinks";
 const NavLinks = () => {
     const [heading, setHeading] = useState("");
     const [subHeading, setSubHeading] = useState("");
-    // create function to chek subheading dan slink head
-    // if subheading == slink head return true
-    // else return false
     return (
       <>
         {links.map((link) => (

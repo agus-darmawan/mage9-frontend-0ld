@@ -10,7 +10,7 @@ import Logo from "../assets/images/logo.svg";
 const Navbar = () => {
   const [open, setOpen] = useState(false);
   return (
-    <nav className="bg-white">
+    <div className="bg-white">
       <div className="flex items-center font-medium justify-around">
         <div className="z-50 p-5 md:w-auto w-full flex justify-between">
             <div className="items-center">
@@ -70,7 +70,7 @@ const Navbar = () => {
           </div>
         </ul>
       </div>
-    </nav>
+    </div>
   );
 };
 
