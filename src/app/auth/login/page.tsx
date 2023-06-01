@@ -7,7 +7,7 @@ import logoText from '../../../assets/images/logotext/blue.svg';
 
 export default function page() {
   return (
-    <div className="bg-gray-50 dark:bg-gray-900">
+    <div>
         <div className="flex flex-col items-center justify-center px-6 py-8 mx-auto md:h-screen lg:py-0">
             <div className="w-full bg-white rounded-lg shadow dark:border md:mt-0 sm:max-w-md xl:p-0 dark:bg-gray-800 dark:border-gray-700">
              <Link href="/">
@@ -50,7 +50,7 @@ export default function page() {
                                 <label  className="text-gray-500 dark:text-gray-300">Remember me</label>
                                 </div>
                             </div>
-                            <Link href="/auth/forgotpassword" className="text-sm font-medium text-white hover:underline dark:text-primary-500">Forgot password?</Link>
+                            <Link href="/auth/forgotpassword" className="text-sm font-medium text-black hover:underline dark:text-primary-500">Forgot password?</Link>
                         </div>
                         <button type="submit" className="w-full bg-blue-600 hover:bg-blue-500 text-white  focus:ring-4 focus:outline-none focus:ring-primary-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800">Login</button>
                         <p className="text-sm font-light text-gray-500 dark:text-gray-400">
