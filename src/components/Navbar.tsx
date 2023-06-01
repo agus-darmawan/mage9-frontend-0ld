@@ -33,7 +33,7 @@ const Navbar = () => {
           </li>
           <NavLinks />
           <li>
-            <Link href="/" className="py-7 px-3 inline-block">
+            <Link href="workshop/" className="py-7 px-3 inline-block">
               ABOUT US
             </Link>
           </li>
@@ -57,7 +57,7 @@ const Navbar = () => {
             </Link>
           </li>
           <li>
-            <Link href="/" className="py-7 px-3 inline-block">
+            <Link href="/workshop/" className="py-7 px-3 inline-block">
               ABOUT US
             </Link>
           </li>
@@ -73,5 +73,4 @@ const Navbar = () => {
     </div>
   );
 };
-
 export default Navbar;
