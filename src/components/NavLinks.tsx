@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import Link from "next/link";
-import { ChevronUp, ChevronDown } from 'tabler-icons-react';
+import { ChevronUp, ChevronDown, H1 } from 'tabler-icons-react';
 import { links } from "./Mylinks";
 
 const NavLinks = () => {
@@ -19,11 +19,15 @@ const NavLinks = () => {
                 }}
               >
                 {link.name}
-                <span className="text-xl md:hidden inline">
-                  {`${
-                      heading === link.name ? <ChevronUp size={28} /> : <ChevronDown size={28} />
-                    }`}
-                </span>
+                {heading === link.name ? (
+                  <span className="text-xl md:hidden inline">
+                    <ChevronUp size={28} />
+                  </span>
+                    ) : (
+                  <span className="text-xl md:hidden inline">
+                    <ChevronDown size={28} />
+                  </span>
+                )}
                 <span className="text-xl md:mt-1 md:ml-2  md:block hidden group-hover:rotate-180 group-hover:-mt-2">
                     <ChevronDown size={28} />
                 </span>
@@ -79,14 +83,15 @@ const NavLinks = () => {
                       className="py-4 pl-7 font-semibold flex justify-between items-center md:pr-0 pr-5"
                     >
                       {slinks.Head}
-  
-                      <span className="text-xl md:mt-1 md:ml-2 inline">
-                        {`${
-                            subHeading === slinks.Head
-                              ? <ChevronUp size={28} />
-                              : <ChevronDown size={28}/>
-                          }`}
-                      </span>
+                      {subHeading === slinks.Head ? (
+                        <span className="text-xl md:hidden inline">
+                          <ChevronUp size={28} />
+                        </span>
+                      ) : (
+                        <span className="text-xl md:hidden inline">
+                          <ChevronDown size={28} />
+                        </span>
+                      )}
                     </h1>
                     <div
                       className={`${
