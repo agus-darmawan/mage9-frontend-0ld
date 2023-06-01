@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 const AppDevContent = () => {
   return (
-    <div>
+    <div className='font-Lexend'>
       <div className="flex-col mt-28 flex items-center justify-center">
         <h1 className="text-center font-bold  text-xl sm:text-4xl  leading-tight">AppDev Pic Here</h1>
       </div>

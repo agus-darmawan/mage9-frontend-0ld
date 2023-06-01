@@ -25,7 +25,7 @@ const Navbar = () => {
                 }} />
           </div>
         </div>
-        <ul className="md:flex hidden uppercase items-center gap-8 font-[Poppins]">
+        <ul className="md:flex hidden uppercase items-center font-Lexend font-medium gap-8">
           <li>
             <Link href="/" className="py-7 px-3 inline-block">
               Home
@@ -40,14 +40,14 @@ const Navbar = () => {
         </ul>
         <div className="md:block hidden">
           <Button 
-            text="Login"
-            link="/auth"
+            text="Sign Up"
+            link="/auth/signup"
           />
         </div>
         {/* Mobile nav */}
         <ul
           className={`
-        md:hidden bg-white fixed w-full top-0 overflow-y-auto z-10 bottom-0 py-24 pl-4
+        md:hidden font-sans bg-white fixed w-full top-0 overflow-y-auto z-10 bottom-0 py-24 pl-4
         duration-500 ${open ? "left-0" : "left-[-100%]"}
         `}
         >
@@ -64,8 +64,8 @@ const Navbar = () => {
           <NavLinks />
           <div className="py-5">
             <Button 
-              text="Login"
-              link="/auth"
+              text="Sign Up"
+              link="/auth/signup"
             />
           </div>
         </ul>

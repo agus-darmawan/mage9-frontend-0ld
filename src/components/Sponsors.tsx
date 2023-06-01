@@ -9,7 +9,7 @@ import logoAir from '../assets/images/sponsors/air.png';
 
 export default function Sponsors() {
   return (
-    <div className="bg-blue-100 dark:bg-gray-800">
+    <div className="bg-blue-100 dark:bg-gray-800 font-Lexend">
         <div className="py-2"></div>
         <div className="sm:max-w-5xl pt-8 rounded-xl bg-blue-100  dark:bg-gray-800 mx-4 sm:mx-8 md:mx-auto">
             <div className="w-11/12 sm:w-2/3 mx-auto mb-10">

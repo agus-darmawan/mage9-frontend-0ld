@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 const IoTContent = () => {
   return (
-    <div>
+    <div className='font-Lexend'>
       <div className="flex-col mt-28 flex items-center justify-center">
         <h1 className="text-center font-bold  text-xl sm:text-4xl  leading-tight">IOT Pic Here</h1>
       </div>

@@ -12,7 +12,7 @@ import Support from '@/components/Support';
 
 export default function Home() {
   return (
-    <body className=" bg-winterColor1 font-sans md:bg-top bg-center">
+    <body className=" bg-winterColor1 md:bg-top bg-center">
       <div className="min-h-screen bg-Hero1 bg-cover bg-repeat ">
         <Navbar />
         <MainHero />
@@ -20,7 +20,7 @@ export default function Home() {
       <div className="">
         <About />
         <Testimonials />
-        <Support />     
+        {/* <Support />      */}
          <Footer/>
 
         

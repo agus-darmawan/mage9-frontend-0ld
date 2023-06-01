@@ -15,7 +15,7 @@ import imageGalery11 from '../assets/images/galery/image-11.jpg'
 
 export default function Galery() {
   return (
-    <div>
+    <div className='font-Lexend'>
         <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-10">
             <div className="grid gap-4">
                 <div>
