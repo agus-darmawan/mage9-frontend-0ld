@@ -18,7 +18,7 @@ const IoTContent = () => {
         </p>
       </div>
 
-      <hr className="h-[5px] mx-auto my-4 md:my-10 bg-black border-0" />
+      <hr className="h-[5px] mx-auto my-4 md:my-10 bg-summerColor3 border-0" />
 
       <div className="flex-col mt-20 container mx-auto px-10">
         <h1 className="inline-flex bg-summerColor2 text-summerColor4 text-lg rounded-full p-3 text-[32px] decoration-2 font-Lexend font-bold mb-5">
@@ -30,7 +30,7 @@ const IoTContent = () => {
         </p>
       </div>
 
-      <hr className="h-[5px] mx-auto my-4 md:my-10 bg-black border-0" />
+      <hr className="h-[5px] mx-auto my-4 md:my-10 bg-summerColor3 border-0" />
 
       <div className="flex-col mt-20 container mx-auto px-10">
         <h1 className="inline-flex bg-summerColor2 text-summerColor4 text-lg rounded-full p-3 text-[32px] decoration-2 font-Lexend font-bold mb-5">
@@ -69,7 +69,7 @@ const IoTContent = () => {
         </section>
       </div>
 
-      <hr className="h-[5px] mx-auto my-2 md:my-10 bg-black border-0" />
+      <hr className="h-[5px] mx-auto my-2 md:my-10 bg-summerColor3 border-0" />
       <div className="flex-col container mx-auto px-10">
         <div>
           <h1 className="inline-flex bg-summerColor2 text-summerColor4 text-lg rounded-full p-3 text-[32px] decoration-2 font-Lexend font-bold mb-5;">
@@ -83,7 +83,7 @@ const IoTContent = () => {
           </p>
         </div>
       </div>
-      <hr className="h-[5px] mx-auto my-4 md:my-10 bg-black border-0" />
+      <hr className="h-[5px] mx-auto my-4 md:my-10 bg-summerColor3 border-0" />
 
       <div className=" flex-col mt-20 pb-20 container mx-auto px-10">
         <h1 className="inline-flex bg-summerColor2 text-summerColor4 text-lg rounded-full p-3   text-[32px] decoration-2 font-Lexend font-bold mb-5;">
