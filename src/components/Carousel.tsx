@@ -8,12 +8,6 @@ import appCard from "../assets/images/card/app.svg"
 import gameCard from "../assets/images/card/game.svg"
 import iotCard from "../assets/images/card/iot.svg"
 import robCard from "../assets/images/card/robot.svg"
-
-import appLogo from "../assets/images/logocomp/app.svg"
-import gameLogo from "../assets/images/logocomp/game.svg"
-import iotLogo from "../assets/images/logocomp/iot.svg"
-import robLogo from "../assets/images/logocomp/robot.svg"
-
 /* Install pure-react-carousel using -> npm i pure-react-carousel */
 
 export default function Carousel() {
@@ -21,7 +15,7 @@ export default function Carousel() {
         <div className="container mx-auto">
             <div className="flex items-center justify-center w-full h-full py-8 sm:py-8 px-4">
                 {/* Carousel for desktop and large size devices */}
-                <CarouselProvider className="lg:block hidden" naturalSlideWidth={100} isIntrinsicHeight={true} naturalSlideHeight={100}  totalSlides={8} visibleSlides={4} step={1} infinite={true}>
+                <CarouselProvider className="lg:block md:block hidden" naturalSlideWidth={100} isIntrinsicHeight={true} naturalSlideHeight={100}  totalSlides={8} visibleSlides={4} step={1} infinite={true}>
                     <div className="w-full relative flex items-center justify-center">
                         <ButtonBack role="button" aria-label="slide backward" className="absolute z-30 left-0 ml-8 focus:outline-none focus:bg-gray-400 focus:ring-2 focus:ring-offset-2 focus:ring-gray-400 cursor-pointer" id="prev">
                             <svg width={8} height={14} viewBox="0 0 8 14" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -187,7 +181,7 @@ export default function Carousel() {
                 </CarouselProvider>
 
                 {/* Carousel for mobile and Small size Devices */}
-                <CarouselProvider className="block md:hidden " naturalSlideWidth={100} isIntrinsicHeight={true} naturalSlideHeight={100} totalSlides={4} visibleSlides={1} step={1} infinite={true}>
+                <CarouselProvider className="block md:hidden lg:hidden " naturalSlideWidth={100} isIntrinsicHeight={true} naturalSlideHeight={100} totalSlides={4} visibleSlides={1} step={1} infinite={true}>
                     <div className="w-full relative flex items-center justify-center">
                         <ButtonBack role="button" aria-label="slide backward" className="absolute z-30 left-0 ml-8 focus:outline-none focus:bg-gray-400 focus:ring-2 focus:ring-offset-2 focus:ring-gray-400 cursor-pointer" id="prev">
                             <svg width={8} height={14} viewBox="0 0 8 14" fill="none" xmlns="http://www.w3.org/2000/svg">

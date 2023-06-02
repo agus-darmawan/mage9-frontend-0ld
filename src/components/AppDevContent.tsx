@@ -3,11 +3,8 @@ import Link from 'next/link';
 
 const AppDevContent = () => {
   return (
-    <div className='font-Lexend'>
-      <div className="flex-col mt-28 flex items-center justify-center">
-        <h1 className="text-center font-bold  text-xl sm:text-4xl  leading-tight">AppDev Pic Here</h1>
-      </div>
-
+    <div className=''>
+    
       <div className="flex-col mt-20 container mx-auto px-10">
         <h1 className="inline-flex bg-SummerOrange text-black text-lg rounded-full text-[32px] decoration-2 font-Lexend font-bold mb-5">
           <InfoCircle size={32} className="mr-4 ml-2" />
