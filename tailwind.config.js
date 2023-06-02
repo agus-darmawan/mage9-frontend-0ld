@@ -41,7 +41,9 @@ module.exports = {
       backgroundImage: {
         Hero:  "url('/public/icon/logo.svg')",
         Hero1: "url('/src/assets/images/bg/Hero2-2.png')",
+        IoT: "url('/src/assets/images/bg/comp/iot.svg')"
       },
+      
     },
   },
   plugins: [],
